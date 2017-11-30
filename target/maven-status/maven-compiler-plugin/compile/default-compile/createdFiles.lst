@@ -1,0 +1,3 @@
+org\spring\springboot\Application.class
+org\spring\springboot\domain\User.class
+org\spring\springboot\dao\UserMapper.class
