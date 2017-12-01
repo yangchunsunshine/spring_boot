@@ -1,3 +1,6 @@
 org\spring\springboot\Application.class
+org\spring\springboot\service\impl\UserServiceImpl.class
 org\spring\springboot\domain\User.class
+org\spring\springboot\service\UserService.class
 org\spring\springboot\dao\UserMapper.class
+org\spring\springboot\controller\UserController.class

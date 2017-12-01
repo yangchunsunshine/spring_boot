@@ -1,7 +1,9 @@
 package org.spring.springboot.dao;
 
 import org.spring.springboot.domain.User;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
