@@ -1,7 +1,10 @@
 package org.spring.springboot.dao;
 
+import org.apache.ibatis.annotations.Param;
 import org.spring.springboot.domain.User;
 import org.springframework.stereotype.Component;
+
+import java.util.List;
 
 @Component
 public interface UserMapper {
@@ -16,4 +19,6 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
+    List<User> selectAllUsers(@Param("name") String name);
 }

@@ -1,10 +1,12 @@
 package org.spring.springboot.domain;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
 import java.util.Date;
 
 public class User {
     private Integer id;
-
+    @JSONField(format = "yyyy-MM-dd HH:mm:ss")
     private Date date;
 
     private String name;
